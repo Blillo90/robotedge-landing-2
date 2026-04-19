@@ -37,7 +37,7 @@ export default function FAQ() {
 
         <div className="flex items-center gap-4 mb-12">
           <span className="text-xs font-medium tracking-widest uppercase"
-            style={{ fontFamily: 'var(--font-mono)', color: '#F97316' }}>
+            style={{ fontFamily: 'var(--font-mono)', color: '#148AFF' }}>
             Preguntas frecuentes
           </span>
           <div className="flex-1 h-px" style={{ background: '#E5E5E5' }} />
@@ -54,7 +54,7 @@ export default function FAQ() {
             }}
           >
             Las dudas que tienes antes de empezar.{' '}
-            <span style={{ color: '#F97316' }}>Resueltas.</span>
+            <span style={{ color: '#148AFF' }}>Resueltas.</span>
           </h2>
 
           <div style={{ borderTop: '1px solid #E5E5E5' }}>
@@ -72,7 +72,7 @@ export default function FAQ() {
                   <span
                     className="shrink-0 w-5 h-5 flex items-center justify-center text-sm font-bold"
                     style={{
-                      color: '#F97316',
+                      color: '#148AFF',
                       transition: 'transform 0.2s',
                       transform: open === i ? 'rotate(45deg)' : 'rotate(0deg)',
                       display: 'inline-block',

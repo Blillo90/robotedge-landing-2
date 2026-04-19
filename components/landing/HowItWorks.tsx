@@ -50,7 +50,7 @@ export default function HowItWorks() {
 
         <div className="flex items-center gap-4 mb-12">
           <span className="text-xs font-medium tracking-widest uppercase"
-            style={{ fontFamily: 'var(--font-mono)', color: '#F97316' }}>
+            style={{ fontFamily: 'var(--font-mono)', color: '#148AFF' }}>
             Cómo funciona
           </span>
           <div className="flex-1 h-px" style={{ background: '#E5E5E5' }} />
@@ -67,7 +67,7 @@ export default function HowItWorks() {
             }}
           >
             De cero al primer robot operando en cuenta real.{' '}
-            <span style={{ color: '#F97316' }}>En 8 semanas.</span>
+            <span style={{ color: '#148AFF' }}>En 8 semanas.</span>
           </h2>
           <p className="text-sm leading-relaxed" style={{ color: '#555555' }}>
             Sin atajos. Sin promesas absurdas. Un proceso paso a paso que puedes

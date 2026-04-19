@@ -77,7 +77,7 @@ export default function Problem() {
 
           <div
             className="mt-6 px-8 py-5"
-            style={{ background: 'rgba(249,115,22,0.06)', borderLeft: '3px solid #F97316' }}
+            style={{ background: 'rgba(20,138,255,0.06)', borderLeft: '3px solid #148AFF' }}
           >
             <p className="text-sm leading-relaxed" style={{ color: '#999999' }}>
               <span className="font-semibold" style={{ color: '#FAFAF8' }}>No fracasaste por ser malo en esto.</span>{' '}

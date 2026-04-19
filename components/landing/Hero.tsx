@@ -38,7 +38,7 @@ function HeroForm() {
     return (
       <div
         className="py-4 px-6 text-sm"
-        style={{ background: '#FFF7ED', border: '1px solid #FED7AA', color: '#9A3412' }}
+        style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', color: '#9A3412' }}
       >
         ¡Listo! Revisa tu bandeja de entrada.
       </div>
@@ -64,14 +64,14 @@ function HeroForm() {
           fontFamily: 'var(--font-mono)',
           color: '#111111',
         }}
-        onFocus={(e) => (e.currentTarget.style.borderColor = '#F97316')}
+        onFocus={(e) => (e.currentTarget.style.borderColor = '#148AFF')}
         onBlur={(e)  => (e.currentTarget.style.borderColor = '#E5E5E5')}
       />
       <button
         type="submit"
         disabled={status === 'loading'}
         className="px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90 disabled:opacity-60 shrink-0"
-        style={{ background: '#F97316', fontFamily: 'var(--font-display)' }}
+        style={{ background: '#148AFF', fontFamily: 'var(--font-display)' }}
       >
         {status === 'loading' ? 'Enviando…' : 'Quiero empezar →'}
       </button>
@@ -91,7 +91,7 @@ export default function Hero() {
         <div className="flex items-center gap-4 mb-12">
           <span
             className="text-xs font-medium tracking-widest uppercase"
-            style={{ fontFamily: 'var(--font-mono)', color: '#F97316' }}
+            style={{ fontFamily: 'var(--font-mono)', color: '#148AFF' }}
           >
             Trading Algorítmico
           </span>
@@ -127,7 +127,7 @@ export default function Hero() {
             >
               Deja de operar
               <br />con el estómago.
-              <br /><span style={{ color: '#F97316' }}>Construye el robot</span>
+              <br /><span style={{ color: '#148AFF' }}>Construye el robot</span>
               <br />que opera por ti.
             </h1>
 
@@ -203,7 +203,7 @@ export default function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs font-medium"
-                  style={{ color: '#F97316', fontFamily: 'var(--font-mono)' }}
+                  style={{ color: '#148AFF', fontFamily: 'var(--font-mono)' }}
                 >
                   Ver reseñas →
                 </Link>

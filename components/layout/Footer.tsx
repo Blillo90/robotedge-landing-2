@@ -14,7 +14,7 @@ export default function Footer() {
               RE
             </div>
             <span style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '14px', letterSpacing: '-0.02em' }}>
-              Robot<span style={{ color: '#F97316' }}>Edge</span>
+              Robot<span style={{ color: '#148AFF' }}>Edge</span>
             </span>
           </div>
           <p className="text-sm" style={{ color: '#888888', maxWidth: '32ch' }}>

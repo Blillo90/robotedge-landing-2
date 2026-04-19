@@ -54,7 +54,7 @@ export default function Navbar() {
             RE
           </div>
           <span style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '15px', letterSpacing: '-0.02em' }}>
-            Robot<span style={{ color: '#F97316' }}>Edge</span>
+            Robot<span style={{ color: '#148AFF' }}>Edge</span>
           </span>
         </Link>
 
@@ -86,7 +86,7 @@ export default function Navbar() {
           <Link
             href="#guia-gratuita"
             className="px-4 py-2 text-sm font-semibold rounded-md text-white transition-opacity hover:opacity-90"
-            style={{ fontFamily: 'var(--font-display)', background: '#F97316' }}
+            style={{ fontFamily: 'var(--font-display)', background: '#148AFF' }}
           >
             Empezar →
           </Link>
@@ -132,7 +132,7 @@ export default function Navbar() {
             <Link
               href="#guia-gratuita"
               className="block text-center text-sm font-semibold py-3 px-6 rounded-md text-white"
-              style={{ background: '#F97316', fontFamily: 'var(--font-display)' }}
+              style={{ background: '#148AFF', fontFamily: 'var(--font-display)' }}
             >
               Empezar →
             </Link>

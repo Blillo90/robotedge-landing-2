@@ -36,7 +36,7 @@ export default function Features() {
 
         <div className="flex items-center gap-4 mb-12">
           <span className="text-xs font-medium tracking-widest uppercase"
-            style={{ fontFamily: 'var(--font-mono)', color: '#F97316' }}>
+            style={{ fontFamily: 'var(--font-mono)', color: '#148AFF' }}>
             El Método
           </span>
           <div className="flex-1 h-px" style={{ background: '#E5E5E5' }} />
@@ -53,7 +53,7 @@ export default function Features() {
             }}
           >
             Este es el método. Y funciona porque{' '}
-            <span style={{ color: '#F97316' }}>los números no mienten.</span>
+            <span style={{ color: '#148AFF' }}>los números no mienten.</span>
           </h2>
           <p className="text-sm leading-relaxed" style={{ color: '#555555', maxWidth: '52ch' }}>
             No es intuición. No son señales. Es un robot que opera con reglas
@@ -75,9 +75,9 @@ export default function Features() {
                 className="text-xs font-medium tracking-wider uppercase inline-block px-2 py-1 self-start"
                 style={{
                   fontFamily: 'var(--font-mono)',
-                  background: '#FFF7ED',
-                  color: '#EA580C',
-                  border: '1px solid #FED7AA',
+                  background: '#EFF6FF',
+                  color: '#0E6FD4',
+                  border: '1px solid #BFDBFE',
                 }}
               >
                 {f.tag}

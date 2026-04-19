@@ -40,7 +40,7 @@ export default function LeadForm() {
 
           <div className="flex items-center gap-4 mb-10">
             <span className="text-xs font-medium tracking-widest uppercase"
-              style={{ fontFamily: 'var(--font-mono)', color: '#F97316' }}>
+              style={{ fontFamily: 'var(--font-mono)', color: '#148AFF' }}>
               Recurso Gratuito
             </span>
             <div className="flex-1 h-px" style={{ background: 'rgba(255,255,255,0.08)' }} />
@@ -58,7 +58,7 @@ export default function LeadForm() {
                 }}
               >
                 Para de improvisar.{' '}
-                <span style={{ color: '#F97316' }}>Construye tu primer robot</span>{' '}
+                <span style={{ color: '#148AFF' }}>Construye tu primer robot</span>{' '}
                 de trading ahora.
               </h2>
               <p className="text-sm leading-relaxed" style={{ color: '#666666', maxWidth: '48ch' }}>
@@ -72,9 +72,9 @@ export default function LeadForm() {
               {status === 'success' ? (
                 <div
                   className="py-6 px-8 text-sm"
-                  style={{ background: 'rgba(249,115,22,0.08)', border: '1px solid rgba(249,115,22,0.2)' }}
+                  style={{ background: 'rgba(20,138,255,0.08)', border: '1px solid rgba(20,138,255,0.2)' }}
                 >
-                  <p className="font-semibold mb-1" style={{ color: '#FB923C' }}>¡Listo! Revisa tu bandeja de entrada.</p>
+                  <p className="font-semibold mb-1" style={{ color: '#60A5FA' }}>¡Listo! Revisa tu bandeja de entrada.</p>
                   <p style={{ color: '#666666' }}>Te hemos enviado acceso a la guía. Si no la ves, comprueba spam.</p>
                 </div>
               ) : (
@@ -97,14 +97,14 @@ export default function LeadForm() {
                         color: '#FAFAF8',
                         fontFamily: 'var(--font-mono)',
                       }}
-                      onFocus={(e) => (e.currentTarget.style.borderColor = '#F97316')}
+                      onFocus={(e) => (e.currentTarget.style.borderColor = '#148AFF')}
                       onBlur={(e)  => (e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)')}
                     />
                     <button
                       type="submit"
                       disabled={status === 'loading'}
                       className="w-full px-6 py-3.5 text-sm font-semibold text-white transition-opacity hover:opacity-90 disabled:opacity-60"
-                      style={{ background: '#F97316', fontFamily: 'var(--font-display)' }}
+                      style={{ background: '#148AFF', fontFamily: 'var(--font-display)' }}
                     >
                       {status === 'loading' ? 'Enviando…' : 'Quiero empezar ya →'}
                     </button>
