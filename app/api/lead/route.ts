@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const supabase = createPublicClient()
-    const { error } = await supabase.from('leads').insert({
+    const { error } = await supabase.from('leads_v2').insert({
       email,
       nombre:    null,
       apellidos: null,
