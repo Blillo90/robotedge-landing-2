@@ -145,7 +145,7 @@ export default function Hero() {
             {/* Stats */}
             <div className="flex flex-wrap gap-8 mt-10 pt-10" style={{ borderTop: '1px solid #E5E5E5' }}>
               {[
-                { value: '+48.26%', label: 'Retorno verificado' },
+                { value: '+48.28k', label: 'Retorno verificado' },
                 { value: '64.94%',  label: 'Op. ganadoras' },
                 { value: '<15%',    label: 'Drawdown máx.' },
               ].map((s) => (
@@ -186,7 +186,7 @@ export default function Hero() {
               <div className="relative w-full" style={{ aspectRatio: '16/10' }}>
                 <Image
                   src="/resultados.jpg"
-                  alt="Resultados verificados en cuenta real — +48.26k, 64.94% operaciones ganadoras"
+                  alt="Resultados verificados en cuenta real — +48.28k, 64.94% operaciones ganadoras"
                   fill
                   className="object-cover"
                   priority
