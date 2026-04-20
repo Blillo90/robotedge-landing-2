@@ -48,13 +48,14 @@ export default function Problem() {
               La razón real por la que sigues perdiendo
               <br />
               <span style={{ fontWeight: 400, color: '#555555', fontSize: '0.82em' }}>
-                — y no tiene nada que ver con el mercado
+                con miedo y dudas, sin el conocimiento para superar sus desafíos
               </span>
             </h2>
             <p className="leading-relaxed text-sm" style={{ color: '#666666', maxWidth: '56ch' }}>
-              Si llevas tiempo en los mercados, ya conoces este patrón: días buenos,
-              semanas malas, sin saber por qué. No es el mercado. Es que estás jugando
-              con las reglas equivocadas.
+              Aquí te ofrecemos una solución definitiva: el poder de dominar herramientas
+              avanzadas de trading algorítmico. No más estrategias a medias ni decisiones
+              impulsivas. Este método te dará el control y la confianza que siempre has
+              deseado, permitiéndote operar con la seguridad de un profesional.
             </p>
           </div>
 

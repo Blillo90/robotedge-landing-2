@@ -26,6 +26,22 @@ const faqs = [
     q: '¿Hay soporte si tengo dudas durante el proceso?',
     a: 'Sí. Tendrás acceso a la comunidad y a sesiones de seguimiento donde puedes resolver dudas sobre tu sistema específico. No te quedas solo con el material.',
   },
+  {
+    q: '¿Se puede acceder desde cualquier país?',
+    a: 'Sí. El curso es completamente online, solo necesitas conexión a internet. Puedes seguirlo desde cualquier país sin restricciones.',
+  },
+  {
+    q: '¿Puedo ir a mi ritmo de forma autónoma?',
+    a: 'Sí. El curso está diseñado para que puedas avanzar a tu ritmo, sin presión y con acompañamiento real. Tienes acceso completo al contenido desde el primer día y puedes verlo cuando quieras.',
+  },
+  {
+    q: '¿Tendré contacto directo con Pablo Carbonell?',
+    a: 'Sí. Pablo realiza sesiones en directo con los alumnos donde podrás interactuar directamente, hacer preguntas y resolver dudas sobre tu caso concreto. El acompañamiento personalizado es una parte fundamental del método.',
+  },
+  {
+    q: '¿Si ya soy trader discrecional rentable, para qué sirve este curso?',
+    a: 'Si ya obtienes resultados, enhorabuena. Aun así, creemos que si quieres una carrera larga y consistente, el salto hacia el trading algorítmico es lo que marca la diferencia. Usar la programación para agilizar tu backtesting ya justifica el curso por sí solo.',
+  },
 ]
 
 export default function FAQ() {

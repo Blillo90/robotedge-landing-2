@@ -112,7 +112,7 @@ export default function Hero() {
                 textTransform: 'uppercase',
               }}
             >
-              Para traders que ya están hartos de perder
+              El Curso de Trading Algorítmico de RobotEdge
             </p>
 
             <h1
@@ -125,15 +125,15 @@ export default function Hero() {
                 color: '#111111',
               }}
             >
-              Deja de operar
-              <br />con el estómago.
-              <br /><span style={{ color: '#148AFF' }}>Construye el robot</span>
-              <br />que opera por ti.
+              Siéntate cara a cara
+              <br />con <span style={{ color: '#148AFF' }}>un trader</span>
+              <br />profesional.
             </h1>
 
             <p className="mb-8 text-base leading-relaxed" style={{ color: '#555555', maxWidth: '48ch' }}>
-              Llevas meses —o años— haciendo lo mismo y obteniendo los mismos resultados.
-              El problema no eres tú. Es que estás operando sin sistema. Eso se puede cambiar.
+              ¿Te gustaría sentirte como un trader profesional con dominio total de tus estrategias?
+              Soy Pablo Carbonell y llevo mucho tiempo dominando los mercados con sistemas algorítmicos.
+              Te enseño exactamente lo que aplico en real todos los días.
             </p>
 
             <HeroForm />

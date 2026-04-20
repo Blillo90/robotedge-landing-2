@@ -52,13 +52,13 @@ export default function Features() {
               color: '#111111',
             }}
           >
-            Este es el método. Y funciona porque{' '}
-            <span style={{ color: '#148AFF' }}>los números no mienten.</span>
+            Con este método mejorarás en...{' '}
+            <span style={{ color: '#148AFF' }}>y los números no mienten.</span>
           </h2>
           <p className="text-sm leading-relaxed" style={{ color: '#555555', maxWidth: '52ch' }}>
-            No es intuición. No son señales. Es un robot que opera con reglas
-            matemáticas exactas — las mismas que defines y validas tú antes de
-            arriesgar un solo euro.
+            No es solo aprender a operar, es dominar el mercado con estrategias avanzadas.
+            Supera a la competencia con el poder del conocimiento algorítmico. Tu conocimiento
+            es tu mayor poder: domina las herramientas que usan los traders expertos.
           </p>
         </div>
 
