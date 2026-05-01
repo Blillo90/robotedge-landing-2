@@ -24,7 +24,7 @@ export default function Footer() {
 
         <nav className="flex flex-wrap gap-6" aria-label="Footer navigation">
           {[
-            { label: 'Blog',       href: '/blog' },
+            { label: 'Guía',       href: '/guia' },
             { label: 'Trustpilot', href: 'https://es.trustpilot.com/review/robotedge.tech' },
           ].map((l) => (
             <Link

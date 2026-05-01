@@ -75,13 +75,13 @@ export default function Navbar() {
         {/* Desktop CTAs */}
         <div className="hidden md:flex items-center gap-3 shrink-0">
           <Link
-            href="/blog"
+            href="/guia"
             className="px-4 py-2 text-sm font-medium rounded-md transition-colors"
             style={{ fontFamily: 'var(--font-display)', color: '#111111', border: '1px solid #E5E5E5' }}
             onMouseEnter={(e) => (e.currentTarget.style.background = '#F5F5F3')}
             onMouseLeave={(e) => (e.currentTarget.style.background = 'transparent')}
           >
-            Blog
+            Guía
           </Link>
           <Link
             href="#guia-gratuita"
@@ -123,11 +123,11 @@ export default function Navbar() {
           ))}
           <div className="flex flex-col gap-3 pt-5">
             <Link
-              href="/blog"
+              href="/guia"
               className="block text-center text-sm font-medium py-3 px-6 rounded-md"
               style={{ border: '1px solid #E5E5E5', fontFamily: 'var(--font-display)', color: '#111111' }}
             >
-              Blog
+              Guía
             </Link>
             <Link
               href="#guia-gratuita"
