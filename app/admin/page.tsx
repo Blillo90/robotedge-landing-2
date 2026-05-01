@@ -1,11 +1,21 @@
-import { getAllPosts } from '@/lib/posts'
 import Link from 'next/link'
+import { createClient } from '@/lib/supabase/server'
 import { deletePost } from './actions'
+
+type Post = {
+  id: string
+  title: string
+  slug: string
+  published: boolean
+  created_at: string
+}
 
 export const dynamic = 'force-dynamic'
 
 export default async function AdminPage() {
-  const posts = await getAllPosts()
+  const supabase = await createClient()
+  const { data } = await supabase.from('posts').select('id,title,slug,published,created_at').order('created_at', { ascending: false })
+  const posts: Post[] = data ?? []
 
   return (
     <div>
