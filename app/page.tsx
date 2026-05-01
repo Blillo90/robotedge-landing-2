@@ -1,4 +1,5 @@
 import Hero from '@/components/landing/Hero'
+import GuiaBanner from '@/components/landing/GuiaBanner'
 import Problem from '@/components/landing/Problem'
 import Features from '@/components/landing/Features'
 import WhoIsFor from '@/components/landing/WhoIsFor'
@@ -12,6 +13,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <GuiaBanner />
       <Problem />
       <Features />
       <WhoIsFor />
