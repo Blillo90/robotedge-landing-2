@@ -132,7 +132,7 @@ export default function Hero() {
 
             <p className="mb-8 text-base leading-relaxed" style={{ color: '#555555', maxWidth: '48ch' }}>
               ¿Te gustaría sentirte como un trader profesional con dominio total de tus estrategias?
-              Soy Pablo Carbonell y llevo mucho tiempo dominando los mercados con sistemas algorítmicos.
+              Soy Pablo Llobregat y llevo mucho tiempo dominando los mercados con sistemas algorítmicos.
               Te enseño exactamente lo que aplico en real todos los días.
             </p>
 

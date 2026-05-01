@@ -30,16 +30,17 @@ export default function About() {
                 lineHeight: 1.1,
               }}
             >
-              Soy Pablo Carbonell:{' '}
-              <span style={{ color: '#148AFF' }}>trader algorítmico
-              <br />con amplia experiencia</span> en los mercados.
+              Soy Pablo Llobregat:{' '}
+              <span style={{ color: '#148AFF' }}>ingeniero de datos<br />y trader algorítmico</span>{' '}
+              con amplia experiencia en los mercados.
             </h2>
 
             <p className="text-sm leading-relaxed mb-5" style={{ color: '#555555' }}>
-              Pablo Carbonell lleva muchos años operando en los mercados con sistemas de trading
-              algorítmico. Con resultados verificados y públicos, ha demostrado su capacidad para
-              dominar las herramientas más avanzadas del mercado. Su amplia experiencia y
-              conocimiento te guiarán a lo largo del curso para que también puedas dominar cada
+              Pablo Llobregat es ingeniero de datos y lleva muchos años operando en los mercados
+              con sistemas de trading algorítmico. Su formación técnica le permite construir y
+              validar estrategias con rigor estadístico real. Con resultados verificados y públicos,
+              ha demostrado su capacidad para dominar las herramientas más avanzadas del mercado.
+              Su experiencia te guiará a lo largo del curso para que puedas dominar cada
               una de las herramientas que aprenderás.
             </p>
 
